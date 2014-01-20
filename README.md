@@ -1,4 +1,4 @@
-dhruv-bluTrace
+sensortag-bluTrace
 ==============
 
-Dhruv's spike on sensortag
+spike on sensortag : node js
