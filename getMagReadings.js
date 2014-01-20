@@ -25,6 +25,9 @@ SensorTag.discover(function(sensorTag) {
         sensorTag.enableMagnetometer(callback);
       },
       function(callback) {
+	sensorTag.setMagnetometerPeriod(200,callback);
+      },
+      function(callback) {
         setTimeout(callback, 2000);
       },
 
@@ -50,7 +53,6 @@ SensorTag.discover(function(sensorTag) {
 	 });
 
         sensorTag.notifyMagnetometer(function() {
-
         });
       },
 
